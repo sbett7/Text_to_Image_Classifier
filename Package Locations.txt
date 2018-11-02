@@ -33,3 +33,8 @@ Must include function in hamming.py file:
         codes = self.encoder.encode(query_data)
         return codes
 
+Hash Embedding - Original
+Paper:		https://papers.nips.cc/paper/7078-hash-embeddings-for-efficient-word-representations.pdf
+Code:		https://github.com/dsv77/hashembedding
+
+
