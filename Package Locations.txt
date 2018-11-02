@@ -1,0 +1,35 @@
+Deep Hash Algorithms
+https://github.com/thulab/DeepHash
+
+LSH-Text DataSketch
+https://github.com/ekzhu/datasketch
+
+Sparse LSH
+https://github.com/brandonrobertz/SparseLSH
+***************
+Must include function in lsh.py file:
+    def get_binary_code(self, query_point):
+        """
+        Computes the Binary Code of a single query and returns it.
+        :param query_point:A feature vector of an image that is to be hashed.
+        :return: The Binary Code for the given query.
+        """
+        for i, table in enumerate(self.hash_tables):
+            binary_hash = self._hash(self.uniform_planes[i], query_point)
+        return binary_hash
+
+
+
+Hdidx SH 
+https://github.com/hdidx
+***************
+Must include function in hamming.py file:
+    def get_encoding(self, query_data):
+        """
+        Computes the Binary Code of a single query and returns it.
+        :param query_data: A feature vector of an image that is to be hashed.
+        :return: The Binary Code for the given query.
+        """
+        codes = self.encoder.encode(query_data)
+        return codes
+

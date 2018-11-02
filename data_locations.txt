@@ -1,0 +1,8 @@
+IMDB Dataset
+https://www.kaggle.com/pankrzysiu/keras-imdb
+
+Twitter Dataset
+https://www.kaggle.com/c/twitter-sentiment-analysis2/data
+
+reference_train.npy for Deep Hashing Algorithm
+https://github.com/thuml/DeepHash/releases/download/v0/reference_pretrain.npy.zip
